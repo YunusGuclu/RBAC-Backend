@@ -197,7 +197,17 @@ Frontend uygulaması bu backend API ile entegre çalışmaktadır.
 veya
 **python manage.py runserver**
 
-## 🧠 Genel Döküman
-
 
 📌 Bu proje, **kurumsal sistemlerde kullanıcı ve yetkilendirme yönetimi için profesyonel bir temel altyapı** sunmaktadır.
+
+## 👨‍💻 Geliştirici
+
+**Yunus Güçlü**  
+Software Enginer
+
+---
+
+## 📄 Lisans
+
+Bu proje kişisel olarak geliştirilmiştir.
+Ticari kullanım için geliştirici izni gereklidir.
