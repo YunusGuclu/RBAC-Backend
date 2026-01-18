@@ -1,0 +1,42 @@
+services:
+  loki:
+    image: grafana/loki:2.8.2
+    command: -config.file=/etc/loki/local-config.yaml
+    ports:
+      - "3100:3100"
+    volumes:
+      - ./loki-config.yaml:/etc/loki/local-config.yaml:ro
+      - loki-data:/loki
+      - ./loki-wal:/wal
+
+  grafana:
+    image: grafana/grafana:10.0.0
+    ports:
+      - "3000:3000"
+    environment:
+      - GF_SECURITY_ADMIN_PASSWORD=admin
+    depends_on:
+      - loki
+
+  alloy:
+    image: grafana/alloy:latest
+    volumes:
+      - ./alloy.hcl:/etc/alloy/alloy.hcl:ro
+      - ./logs:/app/logs
+    command: ["run", "/etc/alloy/alloy.hcl"]
+    depends_on:
+      - loki
+
+  promtail:
+    image: grafana/promtail:2.8.2
+    volumes:
+      - ./promtail.yaml:/etc/promtail/promtail.yaml:ro
+      - ./logs:/var/log/hostlogs:ro
+      - /tmp:/tmp   # promtail positions için yazılabilir alan
+    command: -config.file=/etc/promtail/promtail.yaml
+    depends_on:
+      - loki
+
+volumes:
+  loki-data:
+    driver: local

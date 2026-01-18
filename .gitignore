@@ -1,0 +1,18 @@
+# Environment
+.env
+
+# Python
+__pycache__/
+*.pyc
+
+# Logs
+logs/
+*.log
+
+# Loki runtime
+loki-data/
+*.tgz
+
+# Security / reports
+bandit-report.json
+

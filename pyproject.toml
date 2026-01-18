@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "django-api"
+version = "0.1.0"
+description = "Django REST API with RBAC (roles, modules, functions)"
+authors = ["Admin <admin@gmail.com>"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+Django = "^5.2"
+djangorestframework = "^3.16"
+djangorestframework-simplejwt = "^5.2"
+drf-spectacular = "^0.28"              # optional; API docs (remove if unused)
+psycopg2-binary = "^2.9"               # PostgreSQL driver; prod için psycopg recommended
+python-dotenv = "^1.0"                 # .env yüklemek istersen
+django-cors-headers = "^4.0"
+django-extensions = "^4.0"
+requests = "^2.32.5"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^7.4"
+pytest-django = "^4.5"
+black = "^24.9"
+isort = "^5.12"
+bandit = "^1.8.6"
+pre-commit = "^3.4"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
