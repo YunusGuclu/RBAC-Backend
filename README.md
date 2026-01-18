@@ -203,7 +203,7 @@ veya
 ## 👨‍💻 Geliştirici
 
 **Yunus Güçlü**  
-Software Enginer
+Software Engineer
 
 ---
 
