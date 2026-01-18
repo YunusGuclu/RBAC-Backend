@@ -154,11 +154,14 @@ Grafana, Loki’den gelen logları:
 
 amacıyla kullanılmaktadır.
 
-### Sistem içerisinde:
+### Sağlanan Avantajlar
 
-- Error / Warning / Info log dağılımları izlenebilir
-- API istek türleri (GET / POST) takip edilir
-- Log trendleri üzerinden performans problemleri tespit edilir
+- API hataları anlık izlenir
+- Error / Warn / Info vb. log dağılımları takip edilir
+- Loglar tablo veya liste halinde görüntülenir
+- Loglar zamansal olarak izlenir.
+- Performans problemleri trend analizleriyle fark edilir
+- Sistem davranışları net şekilde analiz edilir
 
 > ⚙️ Loki ve Grafana Docker üzerinde çalışmaktadır.
 
