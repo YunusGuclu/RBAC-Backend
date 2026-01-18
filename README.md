@@ -161,6 +161,7 @@ amacıyla kullanılmaktadır.
 ### Sağlanan Avantajlar
 
 - API hataları anlık izlenir
+- Hızlı log ve hata takibi
 - Error / Warn / Info vb. log dağılımları takip edilir
 - Loglar tablo veya liste halinde görüntülenir
 - Loglar zamansal olarak izlenir.
