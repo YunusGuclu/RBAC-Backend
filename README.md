@@ -1,11 +1,16 @@
 # 🔐 RBAC Backend API (Role-Based Access Control)
 
-Bu proje, **kullanıcıların sistem içerisindeki yetkilerinin rol, modül ve fonksiyon bazlı olarak yönetilmesini sağlayan**,  
-**modern, ölçeklenebilir ve kurumsal düzeyde bir RBAC (Role-Based Access Control) altyapısının geliştirilmesini** kapsamaktadır.
+Bu proje, kullanıcıların sistem içerisindeki erişim ve işlem yetkilerinin **rol, modül ve fonksiyon bazlı olarak merkezi bir yapı üzerinden yönetilmesini** sağlayan, **modern, ölçeklenebilir ve kurumsal düzeyde bir RBAC (Role-Based Access Control) altyapısının geliştirilmesini** kapsamaktadır.
 
-Proje;  
-kullanıcı yönetimi, rol yönetimi, yetkilendirme, JWT tabanlı kimlik doğrulama ve merkezi admin kontrolünü  
-**tek bir backend API altında toplamayı hedeflemektedir.**
+Geliştirilen sistem, kullanıcıların yalnızca yetkili oldukları alanlara erişebilmesini sağlayarak **güvenli, kontrollü ve sürdürülebilir bir yetkilendirme mimarisi** sunar. Yetkilendirme yapısı; roller aracılığıyla modül ve fonksiyon seviyesinde tanımlanmakta ve sistem genelinde tutarlı bir erişim kontrolü oluşturulmaktadır.
+
+Proje; **kullanıcı yönetimi, rol yönetimi, yetkilendirme mekanizmaları, JWT tabanlı kimlik doğrulama ve admin panel üzerinden merkezi kontrol** ihtiyaçlarını tek bir **backend API** altında toplayarak, kurumsal projelerde sıkça ihtiyaç duyulan **tekrar kullanılabilir ve taşınabilir bir Accounts / RBAC altyapısı** oluşturmayı hedeflemektedir.
+
+Bu yapı sayesinde sistem:
+
+- Farklı frontend uygulamalarıyla kolayca entegre edilebilir  
+- Ayrı projelerde ortak kimlik ve yetkilendirme servisi olarak kullanılabilir  
+- Güvenlik, yönetilebilirlik ve ölçeklenebilirlik açısından güçlü bir temel sunar  
 
 ---
 
