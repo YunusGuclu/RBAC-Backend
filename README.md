@@ -114,11 +114,12 @@ Projede **DRF Spectacular** kullanılarak:
 
 tam uyumlu olacak şekilde API dokümantasyonu oluşturulmuştur.
 
-####Swagger
+#### Swagger
 <img width="782" height="451" alt="image" src="https://github.com/user-attachments/assets/368485f1-aadc-419d-9923-27dea2b4efb8" />
 
-####Redoc
-<img width="845" height="453" alt="image" src="https://github.com/user-attachments/assets/49a1b66b-3e00-430b-b7e1-a2219679f413" />
+#### Redoc
+<img width="783" height="451" alt="image" src="https://github.com/user-attachments/assets/c9d95cf1-44d1-4509-9167-11ed7cf49942" />
+
 
 ### Bu sayede:
 
