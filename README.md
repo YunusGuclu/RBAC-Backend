@@ -190,10 +190,13 @@ Frontend uygulaması bu backend API ile entegre çalışmaktadır.
 - ✔ Tekrar kullanılabilir Accounts / RBAC API
 
 ---
-## ✅ Projenin Çalıştırılması
+## ⚙️ Backend Projesinin Çalıştırılması
 
-poetry run python manage.py runserver
+**poetry run python manage.py runserver**
 veya
-python manage.py runserver
+**python manage.py runserver**
+
+## 🧠 Genel Döküman
+
 
 📌 Bu proje, **kurumsal sistemlerde kullanıcı ve yetkilendirme yönetimi için profesyonel bir temel altyapı** sunmaktadır.
