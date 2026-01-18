@@ -149,10 +149,14 @@ Grafana, Loki’den gelen logları:
 
 - Dashboard üzerinde görüntülemek
 - Log analizi yapmak
+- Logları tablo veya liste halinde sunmak
 - API hatalarını anlık izlemek
 - Sistem davranışlarını analiz etmek
 
 amacıyla kullanılmaktadır.
+
+<img width="950" height="493" alt="image" src="https://github.com/user-attachments/assets/15e3c23e-7207-4648-8d05-c8a4662fa1ed" />
+
 
 ### Sağlanan Avantajlar
 
